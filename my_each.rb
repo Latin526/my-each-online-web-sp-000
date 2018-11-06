@@ -6,8 +6,8 @@ def my_each # put argument(s) here
   end
 end
 
-  #arr = [1,2,3,4]
+  arr = [1,2,3,4]
 
-  #my_each(arr) do |i|
-    #puts "#{i}"
-  #end
+  my_each(arr) do |i|
+    puts "#{i}"
+  end
