@@ -1,13 +1,8 @@
-def my_each (arr)
-  i = 0
-  while i < arr.length
-    yield(arr[1])
-    i += 1
+def my_each (array)
+  index = 0
+  while index < array.length
+    array[index] = yield(array[index])
+    index += 1
   end
+  array
 end
-
-  arr = [1,2,3,4]
-
-  my_each(arr) do |i|
-    puts "#{i}"
-  end
