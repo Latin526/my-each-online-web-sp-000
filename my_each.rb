@@ -6,9 +6,3 @@ def my_each # put argument(s) here
   end
   arr
 end
-
-arr = [1,2,3,4]
-
-my_each(arr) do |i|
-  puts "#{i}"
-end
