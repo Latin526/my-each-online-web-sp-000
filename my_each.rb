@@ -4,10 +4,10 @@ def my_each # put argument(s) here
     yield(arr[1])
     i += 1
   end
-
-  arr = [1,2,3,4]
-
-  my_each(arr) do |i|
-    puts "#{i}"
-  end
 end
+
+  #arr = [1,2,3,4]
+
+  #my_each(arr) do |i|
+    #puts "#{i}"
+  #end
