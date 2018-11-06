@@ -1,4 +1,4 @@
-def my_each # put argument(s) here
+def my_each (arr)
   i = 0
   while i < arr.length
     yield(arr[1])
